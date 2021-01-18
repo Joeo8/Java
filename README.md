@@ -1,4 +1,4 @@
-## Java Learning Collectoin
+## Java Learning Collection
 
 <hr>
 
