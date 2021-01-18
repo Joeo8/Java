@@ -1,4 +1,4 @@
-## JavaSE Learning Collectoin
+## Java Learning Collectoin
 
 <hr>
 
