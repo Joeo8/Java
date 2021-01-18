@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pat/Pat.iml" filepath="$PROJECT_DIR$/Pat/Pat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pre-basic/Pre-basic.iml" filepath="$PROJECT_DIR$/Pre-basic/Pre-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pre_oneclass.iml" filepath="$PROJECT_DIR$/Pre_oneclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestDemo/TestDemo.iml" filepath="$PROJECT_DIR$/TestDemo/TestDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise/exercise.iml" filepath="$PROJECT_DIR$/exercise/exercise.iml" />
+    </modules>
+  </component>
+</project>
