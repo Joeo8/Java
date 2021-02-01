@@ -1,6 +1,14 @@
 ## Java Learning Collection
 
 <hr>
+![](Media/java.png)
+
+
+
+<hr>
+
+
+
 
 >1. Javase:java基础，既然是基础，那肯定是最重要的，所以学习的时候也是需要重点学习的地方。
 >
