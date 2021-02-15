@@ -11,14 +11,16 @@ import java.io.File;
 public class File05 {
     public static void main(String[] args) {
         //File遍历功能方法
-//        showList();
+        showList();
+        System.out.println();
         showListFiles();
     }
 
     public static void showList() {
-        //以String类型接收获取到的目录或子文件
+        //以String类型接收获取到的目录或子文件(带文件路径)
         File file = new File("C:\\Java");
         String[] list = file.list();
+        assert list != null;
         for (String str :
                 list) {
             System.out.println(str);
