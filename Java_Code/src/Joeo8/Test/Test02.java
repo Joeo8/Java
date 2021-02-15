@@ -10,7 +10,7 @@ import java.io.File;
  */
 public class Test02 {
     public static void main(String[] args) {
-        //输出多目录下以java结尾的文件
+        //输出多目录下以java结尾的文件 ==> 文件搜索
         File file = new File("C:\\JavaSE_Code");
         getAllFiles(file);
     }
