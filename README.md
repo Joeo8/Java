@@ -1,6 +1,7 @@
 ## Java Learning Collection
 
 <hr>
+
 ![](Media/java.png)
 
 
