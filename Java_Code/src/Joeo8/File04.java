@@ -12,9 +12,10 @@ import java.io.IOException;
 public class File04 {
     public static void main(String[] args) {
         //File创建删除类功能方法
-        showCreate();
+       /* showCreate();
         showMkDir();
-        showMkDirs();
+        showMkDirs();*/
+        showDelete();
     }
 
     public static void showCreate() {
@@ -42,5 +43,12 @@ public class File04 {
         File file01 = new File("C:\\Java\\Other\\B\\C\\D");
         boolean mkdirs = file01.mkdirs();
         System.out.println(mkdirs);
+    }
+    public static void showDelete(){
+        //删除文件或文件夹操作
+        //注:该操作直接在硬盘上进行操作,不走回收站;所以操作需谨慎
+        File file01 = new File("C:\\Java\\Other\\B");
+        boolean delete = file01.delete();
+        System.out.println(delete);
     }
 }
