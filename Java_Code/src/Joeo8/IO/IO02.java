@@ -17,7 +17,7 @@ import java.util.Arrays;
 public class IO02 {
     public static void main(String[] args) throws IOException {
         //要求写入的文件中内容显示100 ==> 需要写三个字节 (多个wirte)
-        FileOutputStream fos = new FileOutputStream("C:\\Java\\Other\\b.text");
+        FileOutputStream fos = new FileOutputStream("C:\\Java\\Other\\b.txt");
         fos.write(49); //1
         fos.write(48); //0
         fos.write(48); //0

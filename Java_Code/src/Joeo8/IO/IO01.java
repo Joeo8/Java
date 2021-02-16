@@ -19,7 +19,7 @@ import java.io.IOException;
  */
 public class IO01 {
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Java\\Other\\a.text");
+        File file = new File("C:\\Java\\Other\\a.txt");
         FileOutputStream fos = new FileOutputStream(file);
         fos.write(666);
         fos.close();
