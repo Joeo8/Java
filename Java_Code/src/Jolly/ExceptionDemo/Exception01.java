@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 //Throwable
-//Exception 异常  throws \ try catch
+//Exception 异常  throws （终端执行,报错提示）\ try catch （不影响后续代码的运作）
 //Error  错误     修改代码
 /**
  * Created with IntelliJ IDEA.
