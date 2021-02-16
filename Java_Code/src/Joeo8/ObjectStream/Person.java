@@ -10,8 +10,14 @@ import java.io.Serializable;
  * Description: No Description
  */
 public class Person implements Serializable {
+    //避免InvalidClassException --> 手动设置序列号
+    private static  final long serialVersionUID=1L;
     private String name;
     private int age;
+    //不能被序列化
+//    private static String name;
+//    private transient int age;
+
 
     public Person() {
     }
