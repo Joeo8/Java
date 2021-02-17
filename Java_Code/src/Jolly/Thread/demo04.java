@@ -11,12 +11,7 @@ public class demo04 {
     public static void main(String[] args) {
         //匿名内部类实现线程的创建
         //1.实现extends Thread
-        new Thread() {
-            @Override
-            public void run() {
-                System.out.println(Thread.currentThread().getName() + "-->" + "Joeo8");
-            }
-        }.start();
+        new Thread(()->System.out.println(Thread.currentThread().getName() + "-->" + "Joeo8")).start();
 
         //2.实现Implement Runnable
         Runnable r = new Runnable() {
