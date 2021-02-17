@@ -8,6 +8,13 @@ package Jolly.Thread;
  * Description: No Description
  */
 public class MyThread02 extends Thread{
+    public MyThread02() {
+    }
+
+    public MyThread02(String name) {
+        super(name);
+    }
+
     @Override
     public void run() {
 //        String name = getName();
