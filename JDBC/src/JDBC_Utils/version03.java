@@ -1,0 +1,63 @@
+package JDBC_Utils;
+
+import java.io.IOException;
+import java.sql.*;
+import java.util.Locale;
+import java.util.Properties;
+import java.util.ResourceBundle;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Joeo8
+ * Time: 20:32
+ * Description: No Description
+ */
+public class version03 {
+    private static String driver;
+    private static String url;
+    private static String user;
+    private static String password;
+
+    static {
+        try {
+            Locale locale;
+            ResourceBundle rb = ResourceBundle.getBundle("JDBC");
+            driver = rb.getString("driver");
+            url = rb.getString("url");
+            user = rb.getString("user");
+            password = rb.getString("password");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    //获取连接
+    public static Connection getConnection() throws ClassNotFoundException, SQLException {
+        Connection conn = null;
+        Class.forName(driver);
+        conn = DriverManager.getConnection(url, user, password);
+        return conn;
+    }
+
+    //关闭连接
+    public static void release(ResultSet rs, Statement st, Connection conn) {
+        if (rs != null)
+            try {
+                rs.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        if (st != null)
+            try {
+                st.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        if (conn != null)
+            try {
+                conn.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+    }
+}
