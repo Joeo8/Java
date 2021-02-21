@@ -27,5 +27,10 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="commons-logging-1.2 (2)" level="project" />
+    <orderEntry type="library" name="spring-beans-5.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-jdbc-5.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-core-5.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-tx-5.0.0.RELEASE" level="project" />
   </component>
 </module>
